@@ -1,0 +1,21 @@
+name: maplibre_custom_marker_example
+description: Example app for maplibre_custom_marker
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  maplibre_custom_marker:
+    path: ../
+  maplibre_gl: ^0.22.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.8.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,21 @@
+name: maplibre_custom_marker
+description: Render Flutter widgets to images and use them as markers on maplibre_gl (Android, iOS, Web).
+version: 0.0.1
+homepage: https://github.com/alguintu/maplibre_custom_marker
+publish_to: 'none'
+issue_tracker: https://github.com/alguintu/maplibre_custom_marker/issues
+topics: [maplibre, map, markers, flutter]
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  maplibre_gl: ^0.22.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.8.0
+
