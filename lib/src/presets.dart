@@ -5,12 +5,24 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:maplibre_custom_marker/maplibre_custom_marker.dart';
 
-enum MarkerShape { circle, pin, bubble }
+enum MarkerShape { circle, pin, bubble, shortPin }
 
 class CircleMarkerOptions {
   final double? diameter;
 
   const CircleMarkerOptions({this.diameter});
+}
+
+class ShortPinMarkerOptions {
+  final Color pinDotColor;
+  final double? diameter;
+  final double nubHeight;
+
+  const ShortPinMarkerOptions({
+    this.pinDotColor = Colors.white,
+    this.diameter,
+    this.nubHeight = 8.0, // default stubby nub
+  });
 }
 
 class PinMarkerOptions {
@@ -93,6 +105,7 @@ class _PresetPainter extends CustomPainter {
     required this.padding,
     required this.circle,
     required this.pin,
+    required this.shortPin,
     required this.bubble,
     required this.textPainter,
     required this.bitmapSize,
@@ -109,6 +122,7 @@ class _PresetPainter extends CustomPainter {
   final double padding;
   final CircleMarkerOptions circle;
   final PinMarkerOptions pin;
+  final ShortPinMarkerOptions shortPin;
   final BubbleMarkerOptions bubble;
   final TextPainter textPainter;
   final Size bitmapSize;
@@ -136,6 +150,42 @@ class _PresetPainter extends CustomPainter {
           Offset(
             (size.width - textPainter.width) / 2,
             (size.height - textPainter.height) / 2,
+          ),
+        );
+
+      case MarkerShape.shortPin:
+        final diameter = shortPin.diameter ?? textPainter.width + padding;
+        final radius = diameter / 2;
+        final nubHeight = shortPin.nubHeight;
+        final shadowSpace = enableShadow ? shadowBlur : 0.0;
+
+        final circleCenter = Offset(size.width / 2, shadowSpace + radius);
+
+        // Shadow
+        if (enableShadow) {
+          final shadowPaint = Paint()
+            ..color = shadowColor
+            ..maskFilter = MaskFilter.blur(BlurStyle.normal, shadowBlur / 2);
+          canvas.drawCircle(circleCenter, radius, shadowPaint);
+        }
+
+        // Circle
+        canvas.drawCircle(circleCenter, radius, Paint()..color = backgroundColor);
+
+        // Nub (tiny triangle pointing down)
+        final path = Path()
+          ..moveTo(size.width / 2 - radius / 4, shadowSpace + diameter)
+          ..lineTo(size.width / 2 + radius / 4, shadowSpace + diameter)
+          ..lineTo(size.width / 2, shadowSpace + diameter + nubHeight)
+          ..close();
+        canvas.drawPath(path, Paint()..color = backgroundColor);
+
+        // Text
+        textPainter.paint(
+          canvas,
+          Offset(
+            (size.width - textPainter.width) / 2,
+            shadowSpace + (diameter - textPainter.height) / 2,
           ),
         );
 
@@ -263,6 +313,7 @@ Future<PresetImageResult> buildPresetMarkerBytes({
   TextStyle? textStyle,
   double? imagePixelRatio, // DPR for rasterization
   CircleMarkerOptions? circleOptions,
+  ShortPinMarkerOptions? shortPinOptions,
   PinMarkerOptions? pinOptions,
   BubbleMarkerOptions? bubbleOptions,
 }) async {
@@ -281,6 +332,7 @@ Future<PresetImageResult> buildPresetMarkerBytes({
   final shadows = enableShadow ? shadowBlur : 0.0;
   circleOptions ??= const CircleMarkerOptions();
   pinOptions ??= const PinMarkerOptions();
+  shortPinOptions ??= const ShortPinMarkerOptions();
   bubbleOptions ??= const BubbleMarkerOptions();
 
   late Size logicalSize;
@@ -297,6 +349,18 @@ Future<PresetImageResult> buildPresetMarkerBytes({
         iconAnchor = 'center'; // (0.5, 0.5)
         break;
       }
+    case MarkerShape.shortPin:
+      {
+        final diameter = shortPinOptions.diameter ?? tp.width + padding;
+        final nubHeight = shortPinOptions.nubHeight;
+
+        final w = diameter + shadows * 2;
+        final h = diameter + shadows * 2 + nubHeight;
+
+        logicalSize = Size(w, h);
+        iconAnchor = 'bottom';
+      }
+
     case MarkerShape.pin:
       {
         final diameter = pinOptions.diameter ?? tp.width + padding;
@@ -339,6 +403,7 @@ Future<PresetImageResult> buildPresetMarkerBytes({
     padding: padding,
     circle: circleOptions,
     pin: pinOptions,
+    shortPin: shortPinOptions,
     bubble: bubbleOptions,
     textPainter: tp,
     bitmapSize: logicalSize,
