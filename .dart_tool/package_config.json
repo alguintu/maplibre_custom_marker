@@ -111,21 +111,21 @@
     },
     {
       "name": "maplibre_gl",
-      "rootUri": "file:///C:/Users/Drei/AppData/Local/Pub/Cache/hosted/pub.dev/maplibre_gl-0.22.0",
+      "rootUri": "file:///C:/Users/Drei/AppData/Local/Pub/Cache/hosted/pub.dev/maplibre_gl-0.23.0",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.5"
     },
     {
       "name": "maplibre_gl_platform_interface",
-      "rootUri": "file:///C:/Users/Drei/AppData/Local/Pub/Cache/hosted/pub.dev/maplibre_gl_platform_interface-0.22.0",
+      "rootUri": "file:///C:/Users/Drei/AppData/Local/Pub/Cache/hosted/pub.dev/maplibre_gl_platform_interface-0.23.0",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.5"
     },
     {
       "name": "maplibre_gl_web",
-      "rootUri": "file:///C:/Users/Drei/AppData/Local/Pub/Cache/hosted/pub.dev/maplibre_gl_web-0.22.0",
+      "rootUri": "file:///C:/Users/Drei/AppData/Local/Pub/Cache/hosted/pub.dev/maplibre_gl_web-0.23.0",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.5"
     },
     {
       "name": "matcher",
@@ -237,8 +237,8 @@
     }
   ],
   "generator": "pub",
-  "generatorVersion": "3.9.0",
+  "generatorVersion": "3.9.2",
   "flutterRoot": "file:///D:/android/flutter",
-  "flutterVersion": "3.35.2",
+  "flutterVersion": "3.35.5",
   "pubCache": "file:///C:/Users/Drei/AppData/Local/Pub/Cache"
 }
