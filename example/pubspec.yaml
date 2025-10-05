@@ -10,7 +10,7 @@ dependencies:
     sdk: flutter
   maplibre_custom_marker:
     path: ../
-  maplibre_gl: ^0.23.0
+  maplibre_gl: ^0.24.0
 
 dev_dependencies:
   flutter_test:
