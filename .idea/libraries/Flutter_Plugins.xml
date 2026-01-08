@@ -1,6 +1,9 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.25.0" />
+      <root url="file://$PROJECT_DIR$/../../../Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.25.0" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>
