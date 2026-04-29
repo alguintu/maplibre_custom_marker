@@ -21,7 +21,7 @@
     },
     {
       "name": "characters",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/characters-1.4.0",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/characters-1.4.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -59,23 +59,23 @@
       "name": "flutter",
       "rootUri": "file:///D:/Android/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.8"
+      "languageVersion": "3.9"
     },
     {
       "name": "flutter_test",
       "rootUri": "file:///D:/Android/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.8"
+      "languageVersion": "3.9"
     },
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///D:/Android/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
-      "languageVersion": "3.8"
+      "languageVersion": "3.9"
     },
     {
       "name": "image",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/image-4.5.4",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/image-4.8.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -105,33 +105,33 @@
     },
     {
       "name": "maplibre_gl",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.25.0",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.26.0",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.7"
     },
     {
       "name": "maplibre_gl_platform_interface",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_platform_interface-0.25.0",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_platform_interface-0.26.0",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.7"
     },
     {
       "name": "maplibre_gl_web",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.25.0",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.26.0",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.7"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/matcher-0.12.17",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/matcher-0.12.19",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.7"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/material_color_utilities-0.13.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.5"
     },
     {
       "name": "meta",
@@ -161,7 +161,7 @@
       "name": "sky_engine",
       "rootUri": "file:///D:/Android/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "3.8"
+      "languageVersion": "3.9"
     },
     {
       "name": "source_span",
@@ -195,9 +195,9 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/test_api-0.7.7",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/test_api-0.7.10",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.7"
     },
     {
       "name": "typed_data",
@@ -237,8 +237,8 @@
     }
   ],
   "generator": "pub",
-  "generatorVersion": "3.10.4",
+  "generatorVersion": "3.11.5",
   "flutterRoot": "file:///D:/Android/flutter",
-  "flutterVersion": "3.38.5",
+  "flutterVersion": "3.41.8",
   "pubCache": "file:///D:/Android/cache/pub-cache"
 }
