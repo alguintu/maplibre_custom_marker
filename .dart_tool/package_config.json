@@ -105,21 +105,21 @@
     },
     {
       "name": "maplibre_gl",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.26.0",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.25.0",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.5"
     },
     {
       "name": "maplibre_gl_platform_interface",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_platform_interface-0.26.0",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_platform_interface-0.25.0",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.5"
     },
     {
       "name": "maplibre_gl_web",
-      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.26.0",
+      "rootUri": "file:///D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.25.0",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.5"
     },
     {
       "name": "matcher",
