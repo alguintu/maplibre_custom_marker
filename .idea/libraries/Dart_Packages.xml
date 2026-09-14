@@ -117,35 +117,35 @@
         <entry key="lint">
           <value>
             <list>
-              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/lint-2.8.0/lib" />
+              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/lint-2.14.0/lib" />
             </list>
           </value>
         </entry>
         <entry key="maplibre_gl">
           <value>
             <list>
-              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.25.0/lib" />
+              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.27.0/lib" />
             </list>
           </value>
         </entry>
         <entry key="maplibre_gl_platform_interface">
           <value>
             <list>
-              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_platform_interface-0.25.0/lib" />
+              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_platform_interface-0.27.0/lib" />
             </list>
           </value>
         </entry>
         <entry key="maplibre_gl_web">
           <value>
             <list>
-              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.25.0/lib" />
+              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.27.0/lib" />
             </list>
           </value>
         </entry>
         <entry key="matcher">
           <value>
             <list>
-              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/matcher-0.12.19/lib" />
+              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/matcher-0.12.20/lib" />
             </list>
           </value>
         </entry>
@@ -159,7 +159,7 @@
         <entry key="meta">
           <value>
             <list>
-              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/meta-1.17.0/lib" />
+              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/meta-1.19.0/lib" />
             </list>
           </value>
         </entry>
@@ -229,7 +229,7 @@
         <entry key="test_api">
           <value>
             <list>
-              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/test_api-0.7.10/lib" />
+              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/test_api-0.7.12/lib" />
             </list>
           </value>
         </entry>
@@ -243,7 +243,7 @@
         <entry key="vector_math">
           <value>
             <list>
-              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/vector_math-2.2.0/lib" />
+              <option value="D:/Android/cache/pub-cache/hosted/pub.dev/vector_math-2.4.2/lib" />
             </list>
           </value>
         </entry>
@@ -284,13 +284,13 @@
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/leak_tracker-11.0.1/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.10/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.2/lib" />
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/lint-2.8.0/lib" />
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.25.0/lib" />
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_platform_interface-0.25.0/lib" />
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.25.0/lib" />
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/matcher-0.12.19/lib" />
+      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/lint-2.14.0/lib" />
+      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.27.0/lib" />
+      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_platform_interface-0.27.0/lib" />
+      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.27.0/lib" />
+      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/matcher-0.12.20/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/material_color_utilities-0.13.0/lib" />
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/meta-1.17.0/lib" />
+      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/meta-1.19.0/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/path-1.9.1/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/petitparser-7.0.1/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/posix-6.0.3/lib" />
@@ -299,9 +299,9 @@
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/stream_channel-2.1.4/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/string_scanner-1.4.1/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/term_glyph-1.2.2/lib" />
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/test_api-0.7.10/lib" />
+      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/test_api-0.7.12/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/typed_data-1.4.0/lib" />
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/vector_math-2.2.0/lib" />
+      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/vector_math-2.4.2/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/vm_service-15.0.2/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/web-1.1.1/lib" />
       <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/xml-6.6.1/lib" />
