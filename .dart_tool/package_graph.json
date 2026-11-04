@@ -40,12 +40,13 @@
     },
     {
       "name": "maplibre_gl",
-      "version": "0.27.0",
+      "version": "0.28.0",
       "dependencies": [
         "collection",
         "flutter",
         "maplibre_gl_platform_interface",
-        "maplibre_gl_web"
+        "maplibre_gl_web",
+        "meta"
       ]
     },
     {
@@ -146,7 +147,7 @@
     },
     {
       "name": "maplibre_gl_web",
-      "version": "0.27.0",
+      "version": "0.28.0",
       "dependencies": [
         "flutter",
         "flutter_web_plugins",
@@ -158,7 +159,7 @@
     },
     {
       "name": "maplibre_gl_platform_interface",
-      "version": "0.27.0",
+      "version": "0.28.0",
       "dependencies": [
         "flutter",
         "meta"

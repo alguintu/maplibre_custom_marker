@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl_web-0.27.0" />
-      <root url="file://D:/Android/cache/pub-cache/hosted/pub.dev/maplibre_gl-0.27.0" />
+      <root url="file://$PROJECT_DIR$/../../../vm-storage/android/pub-cache/hosted/pub.dev/maplibre_gl_web-0.28.0" />
+      <root url="file://$PROJECT_DIR$/../../../vm-storage/android/pub-cache/hosted/pub.dev/maplibre_gl-0.28.0" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
